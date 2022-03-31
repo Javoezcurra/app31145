@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Navbar from "./components/Navbar";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemCount from "./components/ItemCount";
+import { Itemlist } from './components/Itemlist';
 import './App.css';
 
 function App() {
@@ -40,8 +41,12 @@ function App() {
           En este link vas a encontrar una canción muy importante.
         
         </a>
+
+        <Itemlist />
+
         
         <ItemCount />  
+        
 
       </header>
     </div>
