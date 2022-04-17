@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import Navbar from "./components/Navbar";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemCount from "./components/ItemCount";
 import { Itemlist } from './components/Itemlist';
 import './App.css';
 import ItemDetail from './components/ItemDetailContainer/ItemDetail';
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+
 
 function App() {
   return (
@@ -22,7 +24,10 @@ function App() {
         />
 
 
-        <Navbar /> 
+
+          <Navbar />
+      
+        
 
         <img src="https://cdn-icons-png.flaticon.com/512/235/235359.png" className="App-logo" alt="logo" />
 
@@ -47,6 +52,7 @@ function App() {
 
         
         <div className="item-container">
+
 
 <ItemDetail 
 
@@ -78,7 +84,9 @@ img={"https://images.cdn3.buscalibre.com/fit-in/360x360/3b/4f/3b4f533437b9d0bd72
 </div>
 
 
-        <ItemCount />  
+ <ItemCount />  
+
+ <ItemDetailContainer />
         
 
       </header>

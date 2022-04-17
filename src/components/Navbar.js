@@ -2,6 +2,7 @@ import React from "react";
 import CardWidget from "./CardWidget";
 
 
+
 function Lmenu() {
 
     return (
@@ -11,11 +12,9 @@ function Lmenu() {
    
  <CardWidget
  
- img={"https://cdn-icons-png.flaticon.com/512/29/29302.png"}
- 
- /> 
+ img={"https://cdn-icons-png.flaticon.com/512/29/29302.png"}/> 
 
-   <a class="item1" onclick="">
+ <a class="item1" onclick="">
    <i class=""></i>
     Productos
   </a>
@@ -35,6 +34,7 @@ function Lmenu() {
  </div>
     )
 }
+
 
 
 
